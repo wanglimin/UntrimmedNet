@@ -1,0 +1,32 @@
+net: "spatial_untrimmednet_soft_bn_inception_train_val.prototxt"
+
+# testing parameter
+test_iter: 475
+test_interval: 500
+test_initialization: true
+
+# output
+display: 20
+average_loss: 20
+snapshot: 500
+snapshot_prefix: "spatial_untrimmednet_soft_bn_inception_seg3_sw7"
+debug_info: false
+
+# learning rate
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 6000
+max_iter: 15000
+iter_size: 2
+
+# parameter of SGD
+momentum: 0.9
+weight_decay: 0.0005
+clip_gradients: 20
+
+# GPU setting
+solver_mode: GPU
+device_id: [0,1,2,3,4,5,6,7]
+richness: 100
+
