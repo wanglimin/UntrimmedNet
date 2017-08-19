@@ -9,8 +9,8 @@ layer {
   top: "data"
   top: "label"
   sequence_data_param {
-    video_source: "data/anet1.2/anet_1.2_untrimmed_train_val_rgb_list.txt"
-    shot_source: "data/anet1.2/anet_1.2_untrimmed_train_val_shot_list.txt"
+    video_source: "../data/anet1.2/anet_1.2_untrimmed_train_val_rgb_list.txt"
+    shot_source: "../data/anet1.2/anet_1.2_untrimmed_train_val_shot_list.txt"
     batch_size: 7
     num_frames: 1
     num_segments: 3
@@ -45,7 +45,7 @@ layer {
   top: "data"
   top: "label"
   video_data_param {
-    source: "data/anet1.2/anet_1.2_untrimmed_train_rgb_list.txt"
+    source: "../data/anet1.2/anet_1.2_untrimmed_train_rgb_list.txt"
     batch_size: 1
     new_length: 1
     num_segments: 3
