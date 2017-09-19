@@ -5,6 +5,8 @@ We provide the code and models for our CVPR paper ([Arxiv Preprint](https://arxi
       Limin Wang, Yuanjun Xiong, Dahua Lin, and Luc Van Gool
       in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
 ### Updates
+- September 19th, 2017
+  * Release the learned models on the THUMOS14 and ActivityNet1.2 datasets.
 - August 20th, 2017
   * Release the model protos.
   
@@ -18,3 +20,5 @@ The testing of UntrimmedNet for action recognition is based on temporal sliding 
 
 The testing of UntrimmedNet for action detection is based on  a simple baseline (see code in `matlab/`）
 
+### Downloads
+You could download our trained models on the THUMOS14 and ActivityNet datasets by using the scripts of `scripts/get_reference_model_thumos.sh` and `scripts/get_reference_model_anet.sh`.
