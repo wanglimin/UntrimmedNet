@@ -5,6 +5,8 @@ We provide the code and models for our CVPR paper ([Arxiv Preprint](https://arxi
       Limin Wang, Yuanjun Xiong, Dahua Lin, and Luc Van Gool
       in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
 ### Updates
+- October 19th, 2017
+  * Release the learned models trained only on the train set of ActivityNet1.2 datasets. Note that our previously released ActivityNet models are trained on the train+val set. 
 - September 19th, 2017
   * Release the learned models on the THUMOS14 and ActivityNet1.2 datasets.
 - August 20th, 2017
